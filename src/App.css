@@ -1,0 +1,193 @@
+/* Custom CSS for Zomato search box */
+.search-local {
+width: 100%;
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+padding: 5px 10px;
+background-color: #ffffff;
+border: 1px solid #e6e6e6;
+border-radius: 10px;
+}
+
+.search-local input {
+border: none;
+}
+
+.search-local button {
+background-color: #ed1c24;
+color: #ffffff;
+border: none;
+padding: 8px 20px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.navbar-logo {
+width: 100px;
+height: 70px;
+margin-left: 70px;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.text{
+  /* text-align: center; */
+  margin: 0px 30px;
+}
+.slide-bg{
+  background: #f6f6f6;
+}
+/* Add box shadow and hover effect to images */
+.carousel-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.carousel-image:hover {
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.explore-grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.explore-card{
+  margin: 12px 0px 24px 0px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid transparent;
+}
+.explore-card-cover{
+  height: 248px;
+  width: 326px;
+  border-radius: 15px;
+  position: relative;
+}
+.explore-card-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.delivery-time{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  opacity: 0.8;
+  background-color: aqua;
+  backdrop-filter: blur(4px);
+  font-weight: 600;
+  font-size: 12px;
+  padding: 2px 5px 3px;
+  border-radius: 4px;
+}
+
+.pro-off{
+  position: absolute;
+  left: 0px;
+  bottom: 40px;
+  background-color: red;
+  color: aqua;
+  font-size: 14px;
+  padding: 0px 6px;
+  border-radius: 0px 2px 2px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 18px;
+  font-weight: 500;
+}
+.discount{
+  position: absolute;
+  left: 0px;
+  bottom: 14px;
+  background-color: red;
+  color: aqua;
+  font-size: 14px;
+  padding: 0px 6px;
+  border-radius: 0px 2px 2px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 18px;
+  font-weight: 500;
+}
+.gold-off{
+  position: absolute;
+  left: 0px;
+  bottom: 14px;
+  background-color: red;
+  color: aqua;
+  font-size: 14px;
+  padding: 0px 6px;
+  border-radius: 0px 2px 2px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 18px;
+  font-weight: 500;
+}
+.res-row{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0px 6px;
+}
+.res-name{
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  font-weight: 600;
+  color: grey;
+}
+.res-rating{
+  padding: 0px 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: aqua;
+  background-color: green;
+  border-radius: 6px;
+  height: 24px;
+}
+.res-rating i{
+  font-size: 10px;
+  margin-left: 2px;
+}
+.res-cuisine{
+  max-width: 56%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.res-cuisine-tag{
+  margin-right: 4px;
+  color: grey;
+}
+.res-price{
+  font-size: 14px;
+  color: grey;
+}
+.explore-card:hover{
+  background-color: #f4f3f3;
+  border: 1px solid whitesmoke;
+}
+#search-icon {
+  color: red;
+}
+
+.dropdown{
+  position: absolute;
+}
+
