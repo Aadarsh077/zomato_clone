@@ -31,7 +31,7 @@ const Carousel = ({onImgClick}) => {
                         {foodItems.map((item) => {
                             return (
                                 <div key={item.id} className='mx-4'>
-                                    <Link to="/cuisines" onClick={onImgClick} >
+                                    <Link to="/filters" onClick={onImgClick} >
                                     <img src={item.cover} className='carousel-image' alt="..." />
                                     </Link>
                                     <p className='mx-5 text'>{item.title}</p>

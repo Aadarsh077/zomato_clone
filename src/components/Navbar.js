@@ -43,6 +43,7 @@ const Navbar = () => {
             </nav>
             {showCarousel && <Carousel />}
             <Cards searchInput={searchInput} filteredResults={filteredResults} />
+            
         </>
     )
 }
