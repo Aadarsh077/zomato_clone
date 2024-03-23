@@ -1,5 +1,5 @@
 {
-  "homepage": "https://aadarsh077.github.io/zomato_clone/",
+  "homepage": "https://aadarsh077.github.io/zomato_clone",
   "name": "zomato",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
