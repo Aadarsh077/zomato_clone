@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'azazel0001/zomatoClone'  
+        DOCKER_IMAGE = 'azazel0001/zomato'  
         DOCKER_CREDENTIALS_ID = 'DockerHub'
     }
 
