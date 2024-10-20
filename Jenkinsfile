@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'azazel0001/zomatoClone'  
+        DOCKER_IMAGE = 'azazel0001/zomato'  
         DOCKER_CREDENTIALS_ID = 'DockerHub'
     }
 
@@ -47,13 +47,13 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            // Cleanup: Remove the built image from the local system
-            script {
-                def customImage = docker.image(DOCKER_IMAGE)
-                customImage.remove()
-            }
-        }
-    }
+    // post {
+    //     always {
+    //         // Cleanup: Remove the built image from the local system
+    //         script {
+    //             def customImage = docker.image(DOCKER_IMAGE)
+    //             customImage.remove()
+    //         }
+    //     }
+    // }
 }
