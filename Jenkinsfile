@@ -47,13 +47,13 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            // Cleanup: Remove the built image from the local system
-            script {
-                def customImage = docker.image(DOCKER_IMAGE)
-                customImage.remove()
-            }
-        }
-    }
+    // post {
+    //     always {
+    //         // Cleanup: Remove the built image from the local system
+    //         script {
+    //             def customImage = docker.image(DOCKER_IMAGE)
+    //             customImage.remove()
+    //         }
+    //     }
+    // }
 }
